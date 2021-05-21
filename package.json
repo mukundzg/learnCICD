@@ -1,0 +1,21 @@
+{
+  "name": "prj1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "supertest": "^6.1.3"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0"
+  },
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "author": "",
+  "license": "ISC"
+}
